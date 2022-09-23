@@ -1,0 +1,47 @@
+
+*{
+    background-color: rgb(143, 245, 245);
+}
+#clockcontainer{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+   
+    background:url(clock.png), no-repeat;
+    background-size:100%;
+    margin: auto;
+
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 15px;
+    /* when we want to rotate nive with bottom so we use */
+    transform-origin: bottom;
+
+}
+#hour{
+    width: 1.8%;
+height: 24%;
+top: 25%;
+right: 49.5%;
+opacity: 0.8;
+}
+
+#minute {
+    width: 1.5%;
+    height: 33%;
+    top: 16%;
+    right: 49.5%;
+    opacity: 0.8;
+   
+   
+}
+
+#second{
+    width: 1.1%;
+    height: 40%;
+    top: 9%;
+    right: 49.6%;
+    opacity: 0.8;
+}
